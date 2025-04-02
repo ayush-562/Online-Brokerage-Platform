@@ -10,7 +10,7 @@ export default function Awards() {
                     <p className="mb-5">2+ million Zerodha clients contribute to over 15% of all retail order volumes in India daily by trading and investing in:</p>
                     <div className="row">
                         <div className="col">
-                            <ul>
+                            <ul className="investment-options">
                                 <li> Future and Options </li>
                                 <br />
                                 <li> Commodity derivatives </li>
@@ -19,7 +19,7 @@ export default function Awards() {
                             </ul>
                         </div>
                         <div className="col">
-                            <ul>
+                            <ul className="investment-options">
                                 <li> stocks & IPOs </li>
                                 <br />
                                 <li> Direct mutual funds </li>
