@@ -1,0 +1,43 @@
+.social{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.social li{
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 1.25rem;
+}
+
+.social i{
+    color: #666;
+}
+
+.footer-list{
+    list-style-type: none;
+}
+
+.nav-head{
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    font-weight: 500
+}
+
+.footer-list a{
+    line-height: 2;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500
+    
+}
+.footer-list a:hover{
+    text-decoration: none;
+    color: #387ed1;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #bbb;
+    width: 75%;
+}
