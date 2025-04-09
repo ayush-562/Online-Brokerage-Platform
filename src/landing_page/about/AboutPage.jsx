@@ -1,7 +1,11 @@
+import Hero from "../about/Hero";
+import Team from "../about/Team";
+
 export default function Stats() {
     return (
         <>
-            <h1>Stats</h1>
+            <Hero/>
+            <Team/>
         </>
     );
 }
