@@ -1,7 +1,7 @@
 import Hero from "../about/Hero";
 import Team from "../about/Team";
 
-export default function Stats() {
+export default function AboutPage() {
     return (
         <>
             <Hero/>

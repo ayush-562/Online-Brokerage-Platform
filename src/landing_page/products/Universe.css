@@ -1,0 +1,40 @@
+.universe h2 {
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.universe p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.universe .row {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.universe a {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #424242;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.universe a img {
+    height: 55px;
+    max-width: 100%;
+}
+
+.universe a span {
+    line-height: 18px;
+    display: block;
+    margin-top: 10px;
+    color: #9b9b9b;
+    font-size: .75rem;
+}

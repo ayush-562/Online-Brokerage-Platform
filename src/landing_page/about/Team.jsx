@@ -1,4 +1,4 @@
-export default function Stats() {
+export default function Team() {
     return (
         <>
             <div className="container">
