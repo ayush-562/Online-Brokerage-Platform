@@ -1,0 +1,21 @@
+.support-links-header a {
+    color: #222;
+    text-decoration: none;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+.support-links {
+    color: #387ed1;
+    text-decoration: none;
+    line-height: 2;
+}
+
+.link-container {
+    display: block;
+    font-size: 14px;
+    margin: 10px;
+    font-weight: 400;
+    padding-left: 20px;
+}

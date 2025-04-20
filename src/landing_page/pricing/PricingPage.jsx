@@ -2,7 +2,7 @@ import Hero from "./Hero.jsx";
 import PricingTab from "./PricingTab.jsx";
 import ChargesTables from "./ChargesTables.jsx";
 
-export default function Stats() {
+export default function PricingPage() {
     return (
         <>
             <Hero />
