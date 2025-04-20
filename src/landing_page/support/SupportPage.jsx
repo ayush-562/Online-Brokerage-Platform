@@ -1,7 +1,11 @@
-export default function Stats() {
+import Hero from "./Hero.jsx";
+import CreateTicket from "./CreateTicket.jsx";
+
+export default function SupportPage() {
     return (
         <>
-            <h1>Stats</h1>
+            <Hero/>
+            <CreateTicket/>
         </>
     );
 }

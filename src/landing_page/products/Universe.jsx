@@ -1,5 +1,5 @@
 import './Universe.css';
-export default function Stats() {
+export default function Universe() {
     return (
         <>
             <div className="universe container text-center p-5">
