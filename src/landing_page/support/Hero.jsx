@@ -32,10 +32,8 @@ export default function supportHero() {
                     </div>
                     <div className="col-5 featured-support">
                         <h1>Featured</h1>
-                        
-                        <a href="">MCX Option contracts expiry - April 2025</a>
-                        <br />
-                        <a href="">MCX Base metals contract expiry - April 2025</a>
+                        <li><a href="">MCX Option contracts expiry - April 2025</a></li>
+                        <li><a href="">MCX Base metals contract expiry - April 2025</a></li>
                     </div>
                 </div>
             </section>
