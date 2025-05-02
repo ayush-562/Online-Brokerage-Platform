@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import "./Menu.css";
 
@@ -15,7 +15,7 @@ export default function Menu() {
     };
 
     const menuClass = "menu";
-    const activeMenuClass = "menu selected"; 
+    const activeMenuClass = "menu selected";
 
     return (
         <div className="menu-container">
@@ -23,51 +23,34 @@ export default function Menu() {
             <div className="menus">
                 <ul>
                     <li>
-                        <Link style={{ textDecoration: "none" }} to="/" onClick={() => handleMenuClick(0)}>
-                            <p className={selectedMenu === 0 ? activeMenuClass : menuClass}>
-                                Dashboard
-                            </p>
-                        </Link>
+                        <NavLink to="/" style={{ textDecoration: "none" }} className={({ isActive }) => isActive ? activeMenuClass : menuClass}>
+                            <p>Dashboard</p>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link
-                            style={{ textDecoration: "none" }} to="/orders" onClick={() => handleMenuClick(1)}>
-                            <p className={selectedMenu === 1 ? activeMenuClass : menuClass}>
-                                Orders
-                            </p>
-                        </Link>
+                        <NavLink to="/orders" style={{ textDecoration: "none" }} className={({ isActive }) => isActive ? activeMenuClass : menuClass}>
+                            <p>Orders</p>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link
-                            style={{ textDecoration: "none" }} to="/holdings" onClick={() => handleMenuClick(2)}>
-                            <p className={selectedMenu === 2 ? activeMenuClass : menuClass}>
-                                Holdings
-                            </p>
-                        </Link>
+                        <NavLink to="/holdings" style={{ textDecoration: "none" }} className={({ isActive }) => isActive ? activeMenuClass : menuClass}>
+                            <p>Holdings</p>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link
-                            style={{ textDecoration: "none" }} to="/positions" onClick={() => handleMenuClick(3)}>
-                            <p className={selectedMenu === 3 ? activeMenuClass : menuClass}>
-                                Positions
-                            </p>
-                        </Link>
+                        <NavLink to="/positions" style={{ textDecoration: "none" }} className={({ isActive }) => isActive ? activeMenuClass : menuClass}>
+                            <p>Positions</p>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link
-                            style={{ textDecoration: "none" }} to="funds" onClick={() => handleMenuClick(4)}>
-                            <p className={selectedMenu === 4 ? activeMenuClass : menuClass}>
-                                Funds
-                            </p>
-                        </Link>
+                        <NavLink to="/funds" style={{ textDecoration: "none" }} className={({ isActive }) => isActive ? activeMenuClass : menuClass}>
+                            <p>Funds</p>
+                        </NavLink>
                     </li>
                     <li>
-                        <Link
-                            style={{ textDecoration: "none" }} to="/otherApps" onClick={() => handleMenuClick(5)}>
-                            <p className={selectedMenu === 5 ? activeMenuClass : menuClass}>
-                                Apps
-                            </p>
-                        </Link>
+                        <NavLink to="/otherApps" style={{ textDecoration: "none" }} className={({ isActive }) => isActive ? activeMenuClass : menuClass}>
+                            <p>Apps</p>
+                        </NavLink>
                     </li>
                 </ul>
                 <hr />
