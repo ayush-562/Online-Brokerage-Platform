@@ -9,5 +9,102 @@
 .funds p {
     font-size: 0.8rem;
     color: rgb(179, 179, 179);
-    margin-right: 8px;
+    margin-right: auto;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: #fff;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.btn-green {
+    background: #4caf50;
+}
+
+.btn-blue {
+    background: #4184f3;
+}
+
+.funds-row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.funds-col {
+    flex-basis: 48%;
+    text-align: left;
+}
+
+.funds-col span {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.funds-col span p {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.funds-table {
+    border: 1px solid #ddd;
+    padding: 5% 8%;
+}
+
+.funds-table .funds-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.funds-table .funds-data>* {
+    margin-bottom: 5%;
+}
+
+.funds-table .funds-data p:first-child {
+    font-size: 1rem;
+    color: rgb(151, 151, 151);
+}
+
+.funds-imp {
+    font-size: 1.5rem;
+    color: #313131;
+}
+
+.colored {
+    color: #4184f3;
+}
+
+.funds-table hr {
+    border: none;
+    background: #d1d1d1;
+    height: 0.5px;
+    margin-bottom: 5%;
+}
+
+.funds-commodity {
+    padding: 2% 8%;
+    text-align: center;
+}
+
+.funds-commodity p {
+    margin-bottom: 10%;
+    color: #c9c9c9;
+}
+
+/* sudo selectors */
+.btn-blue:hover {
+    background: #74a7fa;
+}
+
+.btn-green:hover {
+    background: #7bdd7f;
 }

@@ -64,6 +64,11 @@
 }
 
 /* sudo selector */
-.item:hover {
+.positions-item td:hover {
+    cursor: default;
+    /* user-select: none; */
+}
+
+.positions-item td:nth-child(-n+4):hover {
     cursor: pointer;
 }

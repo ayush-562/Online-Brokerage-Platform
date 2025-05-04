@@ -97,6 +97,11 @@
 }
 
 /* sudo selector */
-.item:hover {
+.holdings-item td:hover {
+    cursor: default;
+    /* user-select: none; */
+}
+
+.holdings-item td:nth-child(1):hover {
     cursor: pointer;
 }

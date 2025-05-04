@@ -1,16 +1,11 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { useState } from "react";
 import "./Menu.css";
 
 export default function Menu() {
-    const [selectedMenu, setSelectedMenu] = useState(0);
     const [isProfileDropdownOpen, setIsProfileDropdownOpen] = useState(false);
 
-    const handleMenuClick = (index) => {
-        setSelectedMenu(index);
-    };
-
-    const handleProfileClick = (index) => {
+    const handleProfileClick = () => {
         setIsProfileDropdownOpen(!isProfileDropdownOpen);
     };
 
@@ -19,7 +14,9 @@ export default function Menu() {
 
     return (
         <div className="menu-container">
-            <img src="logo.png" style={{ width: "30px" }} />
+            <Link to="/">
+                <img src="logo.png" style={{ width: "30px" }} />
+            </Link>
             <div className="menus">
                 <ul>
                     <li>
@@ -57,6 +54,10 @@ export default function Menu() {
                 <div className="profile" onClick={handleProfileClick}>
                     <div className="avatar">ZU</div>
                     <p className="username">USERID</p>
+                    <div class="dropdown">
+                        <p>Option 1</p>
+                        <p>Option 2</p>
+                    </div>
                 </div>
             </div>
         </div>

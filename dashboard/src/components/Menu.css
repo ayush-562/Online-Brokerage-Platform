@@ -1,6 +1,7 @@
 .menu-container {
     flex-basis: 68%;
-    height: 100%;   /* height of topbar which is 10vh */
+    height: 100%;
+    /* height of topbar which is 10vh */
     padding: 10px 20px;
     box-sizing: border-box;
     display: flex;
@@ -20,7 +21,8 @@
 }
 
 .menus ul {
-    list-style-type: none;  /* remove bullets */
+    list-style-type: none;
+    /* remove bullets */
 }
 
 .menus li {
@@ -86,4 +88,18 @@ hr {
 .profile:hover .username {
     cursor: pointer;
     color: rgb(223, 91, 43);
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: white;
+    border: 1px solid #ccc;
+    z-index: 10;
+    padding: 0.5rem;
+}
+
+.profile:hover .dropdown {
+    display: block;
 }

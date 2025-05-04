@@ -26,7 +26,7 @@ export default function Holdings() {
                         const dayClass = stock.isLoss ? "loss" : "profit";
 
                         return (
-                            <tr key={index} className="item">
+                            <tr key={index} className="holdings-item">
                                 <td>{stock.name}</td>
                                 <td>{stock.qty}</td>
                                 <td>{stock.avg.toFixed(2)}</td>

@@ -1,3 +1,4 @@
+import "./Positions.css"
 import { positions } from "../data/data.js";
 
 export default function Positions() {
@@ -26,7 +27,7 @@ export default function Positions() {
                         const dayClass = stock.isLoss ? "loss" : "profit";
 
                         return (
-                            <tr key={index} className="item">
+                            <tr key={index} className="positions-item">
                                 <td>{stock.product}</td>
                                 <td>{stock.name}</td>
                                 <td>{stock.qty}</td>
