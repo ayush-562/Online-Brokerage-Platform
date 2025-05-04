@@ -1,0 +1,86 @@
+.username h6 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgb(83, 83, 83);
+    margin-bottom: 20px;
+}
+
+.summary-divider {
+    border: none;
+    background: #d1d1d1;
+    height: 1px;
+    margin: 20px 0;
+}
+/* 
+.summary-section {
+    padding-bottom: 2%;
+} */
+
+.summary-section span {
+    display: flex;
+    align-items: center;
+}
+
+.summary-section span p {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.summary-section-icon {
+    transform: scale(0.8);
+    color: rgb(112, 112, 112);
+    padding: 0;
+    margin: 0;
+    margin-right: 10px;
+}
+
+.summary-data {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.summary-data .first-summary-data h3 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: rgb(71, 71, 71);
+}
+
+.summary-data .first-summary-data p {
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+}
+
+.summary-data .first-summary-data small {
+    font-size: 0.8rem;
+    color: rgb(72, 194, 55);
+}
+
+.summary-data .first-summary-data .profit {
+    color: rgb(72, 194, 55);
+}
+
+.summary-data hr {
+    border-left: 0.6px solid rgb(243, 242, 242);
+    height: 70px;
+}
+
+.summary-data .second-summary-data p {
+    font-size: 0.8rem;
+    color: rgb(136, 136, 136);
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.summary-data .second-summary-data p span {
+    display: inline;
+    margin-left: 5%;
+    font-size: 0.9rem;
+    color: rgb(100, 100, 100);
+}
+
+.summary-section hr {
+    margin-top: 6%;
+}
